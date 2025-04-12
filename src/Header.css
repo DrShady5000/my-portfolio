@@ -1,29 +1,64 @@
-/* Header Styling */
 .header {
-    background-color: #181818;
-    color: #e0e0e0;
-    padding: 15px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  background-color: #181818; 
+  color: #e0e0e0; 
+  padding: 10px 20px; 
+  width: 100%; 
+  max-width: 1000px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+  position: fixed; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%);
+  z-index: 100; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0; 
+  transition: all 0.3s ease; 
+}
+
+body {
+  margin: 0; 
+  padding: 0; 
+  padding-top: 60px; 
+}
+
+nav {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  gap: 30px; 
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #64b5f6;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; 
+    gap: 10px; 
   }
-  
-  .header h1 {
-    font-size: 2.5rem;
-    color: #64b5f6;
+
+  .nav-links a {
+    font-size: 1rem; 
   }
-  
-  .header nav a {
-    color: #e0e0e0;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.1rem;
-  }
-  
-  .header nav a:hover {
-    color: #64b5f6;
-    text-decoration: underline;
-  }
-  
+}

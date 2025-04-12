@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomePage.css';
-import Footer from './Footer';
 
 const HomePage = () => {
   return (
@@ -13,21 +12,34 @@ const HomePage = () => {
       
       <section id="about-me" className="about-me">
         <h2>About Me</h2>
-        <p>I’m a passionate full-stack developer with expertise in React, Node.js, and cloud technologies. I’m constantly learning and improving my skills. I’m also excited about AI and data visualization!</p>
+        <p>
+          I’m a passionate full-stack developer with expertise in React, Node.js, and cloud technologies. 
+          I’m constantly learning and improving my skills. I have worked on several projects involving web 
+          applications, APIs, and data visualization using tools like Power BI and low-code platforms such as 
+          Power Apps. My goal is to develop scalable and efficient solutions while continuously expanding my 
+          knowledge, especially in the areas of AI and machine learning.
+        </p>
+        <p>
+          In my free time, I enjoy experimenting with new technologies, contributing to open-source projects, 
+          and staying up-to-date with the latest trends in software development. I’m always excited about the 
+          potential of AI to change the way we interact with technology and solve complex problems. 
+          Currently, I am working on expanding my portfolio by working on some projects while also working to learn C#.
+        </p>
       </section>
 
       <section id="projects" className="projects">
         <h2>My Projects</h2>
         <div className="project-card">
-          <h3>Project 1: E-commerce App</h3>
-          <p>A full-stack e-commerce app built with React, Node.js, and MongoDB. Users can browse products, add them to the cart, and make purchases.</p>
+          <h3>Project 1: Blog Platform to Track My Journey</h3>
+          <p>This blog platform was created to document my journey as a developer. It allows me to write about my experiences, challenges, and growth as I learn new technologies, improve my coding skills, and work on various projects. Built using React and Node.js, it also includes a user authentication system to securely manage my posts. Through this platform, I can track my progress over time and share my learning experiences with others.</p>
         </div>
         <div className="project-card">
-          <h3>Project 2: Blog Platform</h3>
-          <p>A blog platform where users can create, edit, and comment on posts. It has a user authentication system and is built with React and Node.js.</p>
+          <h3>Project 2: Data Dashboard</h3>
+          <p>A data visualization dashboard using React, Node.js, and Power BI to present complex datasets. 
+             The dashboard allows users to interact with and filter data in real time, providing insights into 
+             business performance.</p>
         </div>
       </section>
-
     </div>
   );
 };

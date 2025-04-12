@@ -18,7 +18,7 @@ function App() {
             <Route path="/cv" element={<CVPage />} />
           </Routes>
         </main>
-        <Footer /> {/* Footer should be placed here */}
+        <Footer /> 
       </div>
     </Router>
   );
