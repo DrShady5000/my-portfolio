@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+My React Portfolio
+This is a portfolio website built with React to showcase my projects, skills, and experience. It is designed to be clean, modern, and responsive, with a dark theme and interactive elements.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Available Scripts
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
