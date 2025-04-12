@@ -1,0 +1,29 @@
+/* Header Styling */
+.header {
+    background-color: #181818;
+    color: #e0e0e0;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #64b5f6;
+  }
+  
+  .header nav a {
+    color: #e0e0e0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .header nav a:hover {
+    color: #64b5f6;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: flex-start; /* Align at the top */
+  min-height: 100vh; /* Full viewport height */
+  flex-direction: column;
+}
+
+/* CV Container */
+.cv-container {
+  max-width: 1000px; /* Matching home page width */
+  width: 100%;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 20px auto; /* Center the container horizontally and add spacing */
+}
+
+/* Header Menu */
+.cv-header {
+  background-color: #181818;
+  color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%; /* Ensures it spans the full width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Light shadow for effect */
+}
+
+.cv-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #64b5f6; /* Light blue for header */
+}
+
+.cv-header p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.cv-links {
+  margin-top: 10px;
+}
+
+.cv-links a {
+  text-decoration: none;
+  color: #03a9f4; /* Bright blue for links */
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+.cv-links a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.7rem;
+  color: #e0e0e0;
+  border-bottom: 2px solid #64b5f6; /* Light blue underline for section headers */
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Projects Section */
+.project {
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  font-size: 1.3rem;
+  color: #64b5f6; /* Light blue for project titles */
+}
+
+.project p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Work Experience Section */
+.job h3 {
+  font-size: 1.3rem;
+  color: #64b5f6; /* Light blue for job titles */
+}
+
+.job p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+/* Education Section */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+/* Footer Section */
+.cv-footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 2px solid #64b5f6; /* Light blue border at the top of footer */
+  color: #e0e0e0;
+  width: 100%; /* Ensures it spans the full width */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5); /* Light shadow for effect */
+}
+
+.cv-footer p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cv-container {
+      padding: 10px;
+  }
+
+  .cv-header h1 {
+      font-size: 2rem;
+  }
+
+  .cv-links a {
+      font-size: 1rem;
+      margin: 0 10px;
+  }
+
+  section h2 {
+      font-size: 1.5rem;
+  }
+
+  section ul li {
+      font-size: 0.9rem;
+  }
+
+  .project h3 {
+      font-size: 1.1rem;
+  }
+
+  .job h3 {
+      font-size: 1.1rem;
+  }
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
