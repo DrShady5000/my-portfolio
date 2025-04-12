@@ -1,7 +1,8 @@
-My React Portfolio
+### `My React Portfolio`
+
 This is a portfolio website built with React to showcase my projects, skills, and experience. It is designed to be clean, modern, and responsive, with a dark theme and interactive elements.
 
-Available Scripts
+### `Available Scripts`
 In the project directory, you can run the following commands:
 
 ### `npm start`
