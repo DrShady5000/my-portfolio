@@ -98,8 +98,7 @@ const CV = () => {
         <section>
           <h2>References</h2>
           <p>
-            Ashnita Devi – 02040265489 | deviashnita@hotmail.com <br />
-            Johnny Hopper – 0217562275 | johnnyhopper@gmail.com
+            Available on request
           </p>
         </section>
       </div>
