@@ -44,10 +44,12 @@ const CV = () => {
           </p>
         </section>
 
-        <section>
+                <section>
           <h2>Education</h2>
           <ul>
-            <li><strong>Certificate in Professional Software Development (AI & Cloud)</strong> – Mission Ready, 2025</li>
+            <li><strong>Certificate in Digital Technology Product Solutions (Level 6)</strong> –  Mission Ready | Completed 2025</li>
+            <li><strong>Certificate in Digital Technology Product Solutions (Level 5)</strong> –  Mission Ready | Completed 2024</li>
+            <li><strong>Certificate in Technology Product Development (Level 4)</strong> –  Mission Ready | Completed 2024</li>
             <li><strong>NCEA Level 3</strong> – One Tree Hill College, 2017</li>
             <li><strong>NCEA Level 2</strong> – Passed with Merit</li>
             <li><strong>NCEA Level 1</strong> – Passed with Merit</li>
@@ -90,7 +92,7 @@ const CV = () => {
             <p>Led operations, trained staff, and handled troubleshooting.</p>
           </div>
           <div className="job">
-            <h3>Intern – Foodstuffs IT (Oct – Dec 2025)</h3>
+            <h3>Intern – Foodstuffs IT (Oct – Dec 2024)</h3>
             <p>Assisting with Power BI dashboards, analysis, and stakeholder feedback.</p>
           </div>
         </section>
