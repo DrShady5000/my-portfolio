@@ -15,7 +15,7 @@ body {
   max-width: 1000px;
   width: 100%;
   padding: 20px;
-  background-color: #1e1e1e;
+  background-color: #1c1f2a;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   margin: 20px auto;
@@ -25,21 +25,20 @@ body {
 }
 
 .cv-header {
-  background-color: #181818;
+  background-color: #1c1f2a;
   color: #e0e0e0;
   padding: 20px;
   text-align: center;
   top: 0;
   z-index: 100;
   width: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   margin-left: -20px;
 }
 
 .cv-header h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #64b5f6;
+  color: #c94074;
 }
 
 .cv-header p {
@@ -56,12 +55,22 @@ body {
 
 .cv-links a {
   text-decoration: none;
-  color: #03a9f4;
+  color: #c94074;
   font-size: 1.2rem;
 }
 
 .cv-links a:hover {
   text-decoration: underline;
+  color: #a7315d;
+}
+
+
+.cv-card {
+  background-color: #2a2e3d;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 section {
@@ -71,9 +80,10 @@ section {
 section h2 {
   font-size: 1.7rem;
   color: #e0e0e0;
-  border-bottom: 2px solid #64b5f6;
+  border-bottom: 2px solid #c94074;
   padding-bottom: 5px;
   margin-bottom: 10px;
+  color: #c94074;
 }
 
 section ul {
@@ -91,32 +101,18 @@ section p {
   line-height: 1.6;
 }
 
-.project {
+.project, .job {
   margin-bottom: 15px;
 }
 
-.project h3 {
+.project h3, .job h3 {
   font-size: 1.3rem;
-  color: #64b5f6;
+  color: #c94074;
 }
 
-.project p {
+.project p, .job p {
   font-size: 1rem;
   line-height: 1.6;
-}
-
-.job h3 {
-  font-size: 1.3rem;
-  color: #64b5f6;
-}
-
-.job p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.job {
-  margin-bottom: 20px;
 }
 
 ul {
@@ -151,11 +147,7 @@ ul li {
     font-size: 0.9rem;
   }
 
-  .project h3 {
-    font-size: 1.1rem;
-  }
-
-  .job h3 {
+  .project h3, .job h3 {
     font-size: 1.1rem;
   }
 }

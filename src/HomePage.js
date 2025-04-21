@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import sahilImage from './assets/SahilImage.jpg';
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <section className="intro">
         <h1>Welcome to My Portfolio</h1>
         <p>Hi, I’m Sahil Deo, a full-stack developer with a passion for building innovative applications using the latest technologies.</p>
+        <img src={sahilImage} alt="Sahil Deo" className="profile-image" />
         <a href="#about-me" className="btn">Learn More</a>
       </section>
       
@@ -21,7 +23,7 @@ const HomePage = () => {
         </p>
         <p>
           In my free time, I enjoy experimenting with new technologies, contributing to open-source projects, 
-          and staying up  -to-date with the latest trends in software development. I’m always excited about the 
+          and staying up-to-date with the latest trends in software development. I’m always excited about the 
           potential of AI to change the way we interact with technology and solve complex problems. 
           Currently, I am working on expanding my portfolio by working on some projects while also working to learn C#.
         </p>

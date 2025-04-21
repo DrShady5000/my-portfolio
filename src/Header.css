@@ -43,13 +43,15 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #64b5f6;
+  color: #c94074;
   font-size: 1.2rem;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
+  color: #a7315d;
 }
 
 @media (max-width: 768px) {
