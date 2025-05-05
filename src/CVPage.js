@@ -6,58 +6,22 @@ const CV = () => {
     <div className="cv-container">
       <header className="cv-header">
         <h1>Sahil Deo</h1>
-        <p>📞 022 479 1311 | ✉️ sahil.deo5000@gmail.com</p>
         <div className="cv-links">
+          <a href="https://devbysahil.netlify.app/" target="_blank" rel="noreferrer">Portfolio</a>
           <a href="https://www.linkedin.com/in/sahil-deo/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://github.com/DrShady5000" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </header>
 
       <section>
-        <h2>Professional Summary</h2>
+        <h2>Summary</h2>
         <p>
-          Experienced leader transitioning into full-stack development with expertise in React, Node.js, MySQL, and cloud solutions. Strong problem-solving, multitasking, and critical-thinking abilities. Passionate about applying technical skills to innovative projects and continuously improving through hands-on development.
+          I’m a full-stack developer with a strong leadership background and a hands-on approach to learning. After several years in team management, I’ve shifted my focus to software development, working with React, Node.js, and TypeScript. I'm passionate about solving problems and building meaningful tech, and I'm always eager to grow and take on new challenges.
         </p>
-      </section>
-
-      <section>
-        <h2>Technical Skills</h2>
-        <ul>
-          <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js, UI/UX principles</li>
-          <li><strong>Backend:</strong> Node.js, Express.js</li>
-          <li><strong>Databases:</strong> MySQL, MongoDB</li>
-          <li><strong>Cloud:</strong> Microsoft Azure</li>
-          <li><strong>APIs:</strong> RESTful API design & integration</li>
-          <li><strong>Version Control:</strong> Git, GitHub</li>
-          <li><strong>AI/ML:</strong> Google AI, Azure AI</li>
-          <li><strong>Testing:</strong> Jest (TDD)</li>
-          <li><strong>Agile:</strong> Scrum, Jira</li>
-          <li><strong>Data Analytics & Visualization:</strong> Power BI</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Professional Skills</h2>
-        <p>
-          ✔️ Customer Service | ✔️ Leadership | ✔️ Time Management | ✔️ Critical Thinking | ✔️ Communication | ✔️ Problem Solving | ✔️ Team Collaboration | ✔️ Adaptability
-        </p>
-      </section>
-
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li><strong>Certificate in Digital Technology Product Solutions (Level 6)</strong> – Mission Ready | Completed 2025</li>
-          <li><strong>Certificate in Digital Technology Product Solutions (Level 5)</strong> – Mission Ready | Completed 2024</li>
-          <li><strong>Certificate in Technology Product Development (Level 4)</strong> – Mission Ready | Completed 2024</li>
-          <li><strong>NCEA Level 3</strong> – One Tree Hill College, Auckland | Graduated 2017</li>
-          <li><strong>NCEA Level 2</strong> – Passed with Merit</li>
-          <li><strong>NCEA Level 1</strong> – Passed with Merit</li>
-        </ul>
       </section>
 
       <section>
         <h2>Projects</h2>
-
         <div className="cv-card">
           <h3>
             Full-Stack Personal Blog Platform
@@ -65,46 +29,134 @@ const CV = () => {
             <a href="https://github.com/DrShady5000/my-blog" target="_blank" rel="noreferrer"> GitHub Repo</a>
           </h3>
           <ul>
-            <li>Built a full-stack personal blog using TypeScript, Next.js (React), Node.js, and MongoDB.</li>
-            <li>Supports rich text post creation with image upload.</li>
-            <li>Uses SSG and dynamic routing in Next.js.</li>
-            <li>Deployed to Vercel with optimized performance.</li>
+            <li>• Developed a blog platform to document my developer journey.</li>
+            <li>• Built with TypeScript, Next.js (frontend), Node.js (backend), and MongoDB (data storage).</li>
+            <li>• Designed a clean, responsive UI with static site generation and dynamic routing.</li>
+            <li>• Deployed via Vercel with secure environment variables and optimized performance.</li>
+            <li>• Strengthened real-world full-stack development skills and project architecture thinking.</li>
+            <li><strong>• Tech Stack:</strong> TypeScript, Next.js, Node.js, MongoDB, Vercel</li>
           </ul>
         </div>
 
         <div className="cv-card">
           <h3>Delivery Practice Refresh (DPR) Dashboard – Foodstuffs IT</h3>
           <ul>
-            <li>Built a Power BI dashboard for tracking delivery practices and maturity levels.</li>
-            <li>Focused on real-time insights, usability, and reporting clarity.</li>
+            <li>• Refined a Power BI dashboard to help IT teams track delivery practices and maturity levels.</li>
+            <li>• Designed real-time data visualizations and user-friendly reports for internal use.</li>
+            <li>• Helped teams monitor KPIs like delivery maturity and team adoption benchmarks.</li>
+            <li><strong>• Tech Stack:</strong> Power BI, Data Visualization, Agile, IT Analytics</li>
           </ul>
         </div>
 
         <div className="cv-card">
-          <h3>Trade Me Auction (Mock Project) – Mission Ready</h3>
+          <h3>Developer Portfolio Website
+            <a href="https://github.com/DrShady5000/my-portfolio" target="_blank" rel="noreferrer"> GitHub Repo</a>
+            </h3>
           <ul>
-            <li>Enhanced item comparison functionality on a Trade Me mock system.</li>
-            <li>Used React.js for frontend, Node.js backend, and MongoDB for storage.</li>
+            <li>• Created a personal site to showcase my work, skills, and development journey.</li>
+            <li>• Built with React, Next.js, and TypeScript, fully responsive across devices.</li>
+            <li>• Focused on clean layout, accessibility, and ease of navigation.</li>
+            <li>• Designed to serve as a professional home for projects and career highlights.</li>
+            <li><strong>• Tech Stack:</strong> React, Next.js, TypeScript, UI/UX, Responsive Design</li>
           </ul>
         </div>
       </section>
 
       <section>
-        <h2>Work Experience</h2>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js, TypeScript, UI/UX principles</li>
+          <li><strong>Backend:</strong> Node.js, Express.js, .NET (ASP.NET Core - learning)</li>
+          <li><strong>Databases:</strong> MySQL, MongoDB</li>
+          <li><strong>Cloud & DevOps:</strong> Microsoft Azure, .env management, CI/CD basics</li>
+          <li><strong>APIs:</strong> RESTful API design & integration</li>
+          <li><strong>Version Control:</strong> Git, GitHub</li>
+          <li><strong>AI/ML:</strong> Google AI, Azure AI</li>
+          <li><strong>Testing:</strong> Jest (TDD)</li>
+          <li><strong>Agile:</strong> Scrum, Jira</li>
+          <li><strong>Data Analytics & Visualization:</strong> Power BI</li>
+          <li><strong>Currently Learning:</strong> C#, .NET (ASP.NET Core)</li>
+        </ul>
+      </section>
 
+      <section>
+        <h2>Professional Skills</h2>
+        <ul>
+          <li>✔️ Customer Service</li>
+          <li>✔️ Leadership</li>
+          <li>✔️ Time Management</li>
+          <li>✔️ Critical Thinking</li>
+          <li>✔️ Communication</li>
+          <li>✔️ Problem Solving</li>
+          <li>✔️ Team Collaboration</li>
+          <li>✔️ Adaptability</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Hindi (conversational, unable to write)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
         <div className="cv-card">
           <h3>Warehouse Assistant – FedEx, East Tāmaki | Feb 2023 – Present</h3>
-          <p>Sorted freight and managed packages. Supported warehouse organization and logistics flow.</p>
+          <ul>
+            <li>• Maintained warehouse efficiency by organizing, sorting, and processing freight.</li>
+            <li>• Supported logistics and ensured packages were routed accurately and on time.</li>
+          </ul>
         </div>
 
         <div className="cv-card">
           <h3>Shift Supervisor – McDonald's, Māngere | Mar 2017 – Feb 2023</h3>
-          <p>Led a team to manage store operations. Delivered customer service, managed cash, and maintained equipment.</p>
+          <ul>
+            <li>• Led a dedicated team of staff, ensuring daily operations ran smoothly.</li>
+            <li>• Provided exceptional customer service and managed cash handling.</li>
+            <li>• Helped troubleshoot and maintain equipment, keeping the restaurant in top shape.</li>
+            <li>• Trained new staff and ensured all operational standards were met.</li>
+          </ul>
         </div>
 
         <div className="cv-card">
           <h3>Intern – Foodstuffs IT | Oct – Dec 2024</h3>
-          <p>Assisted in Power BI dashboard development. Collaborated with stakeholders to visualize and report business data.</p>
+          <ul>
+            <li>• Improved existing Power BI dashboards that helped the IT team track key metrics.</li>
+            <li>• Collaborated closely with the team, refining the dashboards to provide clear, real-time insights for better decision-making.</li>
+            <li>• Worked with stakeholders to refine dashboard usability and real-time reporting.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li><strong>NCEA Level 3</strong> – One Tree Hill College, Auckland | Graduated 2017</li>
+          <li><strong>Merit in Level 1 & Level 2</strong> – One Tree Hill College, Auckland</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <div className="certificate">
+          <p><strong>Certificate in Applied Digital Technology Product Solutions (Level 6)</strong> – Mission Ready | Feb 2025</p>
+          <a href="https://www.credential.net/0a194b53-0506-4c11-8769-82ffe84714bb#acc.GP3FM8ar" target="_blank" rel="noreferrer" aria-label="View Certificate in Applied Digital Technology Product Solutions (Level 6)">View Certificate</a>
+          <p>This course provided advanced skills in cloud, AI, and DevOps, offering hands-on experience to optimize workflows in a professional tech setting.</p>
+        </div>
+
+        <div className="certificate">
+          <p><strong>Certificate in Digital Technology Product Solutions (Level 5)</strong> – Mission Ready | Nov 2024</p>
+          <a href="https://www.credential.net/fd717047-e3a4-4635-a227-c667f2ca0bc4#acc.WRDBjANa" target="_blank" rel="noreferrer" aria-label="View Certificate in Digital Technology Product Solutions (Level 5)">View Certificate</a>
+          <p>This course gave me a solid foundation in cloud services, AI, DevOps, and agile practices, which I apply to my software development projects.</p>
+        </div>
+
+        <div className="certificate">
+          <p><strong>Certificate in Technology Development (Level 4)</strong> – Mission Ready | May 2024</p>
+          <a href="https://www.credential.net/58e432ca-ee48-454d-866d-34f1b63ce436#acc.FULMwVEq" target="_blank" rel="noreferrer" aria-label="View Certificate in Technology Development (Level 4)">View Certificate</a>
+          <p>I learned how to build responsive web apps, server-side software, and manage databases, including frameworks, security, and unit testing.</p>
         </div>
       </section>
 
