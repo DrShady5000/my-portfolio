@@ -37,7 +37,7 @@ const HomePage = () => {
             This blog platform was created to document my journey as a developer. It allows me to write about my experiences, challenges, and growth as I learn new technologies, improve my coding skills, and work on various projects. Built using TypeScript, Next.js, and MongoDB. I deployed it using Vercel. Through this platform, I can track my progress over time and share my learning experiences with others.
           </p>
           <p>
-            You can check out the live blog at: <a href="https://my-blog-5ky8e6bbo-drshadys-projects.vercel.app/" target="_blank" rel="noopener noreferrer">My Blog</a>
+            You can check out the live blog at: <a href="https://my-blog-two-swart-37.vercel.app/" target="_blank" rel="noopener noreferrer">My Blog</a>
           </p>
         </div>
         <div className="project-card">
